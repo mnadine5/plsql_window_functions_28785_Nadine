@@ -25,7 +25,7 @@ There are five key expectations from the analysis, all related to the use cases 
    ### Schema
    ![Table_Customer](screenshots/Table%20Customer.png) 
    ![Table_Medecines](screenshots/Table%20Medecines.png)
-   ![Table_Sales](screenshots/Table%20Sales.png)
+   ![Table_Sales](screenshots/Table%20sales.png)
    ### ER Diagram
  ![ER_DIAGRAM](screenshots/ER_Diagram.jpg)
 
