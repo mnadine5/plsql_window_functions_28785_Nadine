@@ -15,11 +15,31 @@ The analysis will help track the sales of the medicines over time and the custom
 
 There are five key expectations from the analysis, all related to the use cases with window functions:
 
-1. Top 5 medicines per location based on total sales quantity: RANK()
-2. Running total sales revenue per month: SUM() OVER()
-3. Month-over-month sales growth percentage: LAG() / LEAD()
-4. Customer segmentation into quartiles by total purchase amount: NTILE(4)
-5. Three-month moving average of medicine sales quantity: AVG() OVER()
+ 1. Top 5 medicines per location based on total sales quantity: RANK()
+ 2. Running total sales revenue per month: SUM() OVER()
+ 3. Month-over-month sales growth percentage: LAG() / LEAD()
+ 4. Customer segmentation into quartiles by total purchase amount: NTILE(4)
+ 5. Three-month moving average of medicine sales quantity: AVG() OVER()
+
+ ## Step 4: Part A — SQL JOINs Implementation
+
+The project includes INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN queries
+to analyze customer purchases and product sales.
+
+ 1. INNER JOIN: Retrieves valid transactions (joins.sql)
+ 2. LEFT JOIN: Identifies customers with no purchases
+ 3. RIGHT JOIN: Detects medicines with no sales
+ 4. FULL OUTER JOIN: Compares customers and medicines including unmatched records
+
+## Step 5: Part B — Window Functions Implementation
+## Window Function Queries
+Window functions are used to analyze sales trends and customer behavior.
+
+ 1. RANK(): Identify top-selling medicines
+ 2.SUM() OVER(): Calculate running sales totals
+ 3. LAG(): Compare monthly sales growth
+ 4. NTILE(4): Segment customers into quartiles
+
 
 ## Key Insights
 
