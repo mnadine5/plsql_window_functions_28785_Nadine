@@ -23,9 +23,9 @@ There are five key expectations from the analysis, all related to the use cases 
 
  ## Step 3: Database Schema Design   
    ### Schema
-   ![Table_Customer](screenshots/Table%20Customer.png) 
-   ![Table_Medecines](screenshots/Table%20Medecines.png)
-   ![Table_Sales](screenshots/Table%20sales.png)
+   ### Table Customer  ![Table_Customer](screenshots/Table%20Customer.png) 
+   ### Table_Medecines ![Table_Medecines](screenshots/Table%20Medecines.png)
+   ### Table Sales  ![Table_Sales](screenshots/Table%20sales.png)
    ### ER Diagram
  ![ER_DIAGRAM](screenshots/ER_Diagram.png)
 
