@@ -27,7 +27,7 @@ There are five key expectations from the analysis, all related to the use cases 
    ![Table_Medecines](screenshots/Table%20Medecines.png)
    ![Table_Sales](screenshots/Table%20sales.png)
    ### ER Diagram
- ![ER_DIAGRAM](screenshots/ER_Diagram.jpg)
+ ![ER_DIAGRAM](screenshots/ER_Diagram.png)
 
  ## Step 4: Part A — SQL JOINs Implementation
    
