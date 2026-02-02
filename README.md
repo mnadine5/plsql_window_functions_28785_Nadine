@@ -20,3 +20,18 @@ There are five key expectations from the analysis, all related to the use cases 
 3. Month-over-month sales growth percentage: LAG() / LEAD()
 4. Customer segmentation into quartiles by total purchase amount: NTILE(4)
 5. Three-month moving average of medicine sales quantity: AVG() OVER()
+
+## Key Insights
+
+  - Painkiller medicines such as Paracetamol generated the highest sales revenue, indicating strong customer demand for      this category.
+  - Customers from Kigali made more frequent purchases compared to other locations, suggesting higher sales activity in      that region.
+  - Some medicines, such as Insulin, showed little or no sales activity, which may require better stock planning or           promotion.
+  - Sales amounts increased over time, showing a positive trend in overall pharmacy performance.
+  - Customer spending segmentation revealed a small group of high-value customers responsible for a large portion of          total revenue.
+
+## References
+   INSY 8222 Lecture Notes
+   
+## Integrity Statement
+All sources were properly cited. Implementations and analysis represent original work.
+
