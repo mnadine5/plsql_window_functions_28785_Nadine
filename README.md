@@ -22,25 +22,28 @@ There are five key expectations from the analysis, all related to the use cases 
  5. Three-month moving average of medicine sales quantity: AVG() OVER()
 
  ## Step 4: Part A — SQL JOINs Implementation
-
-The project includes INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN queries
-to analyze customer purchases and product sales.
-[Joins_Queries](Joins.sql/)
+   
+   ### Joins Queries
+   
+   [Joins_Queries](Joins.sql/)
+    The project includes INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN queries
+   to analyze customer purchases and product sales.
   
- 1. INNER JOIN: Retrieves valid transactions (joins.sql) ![Inner_Joins_Results](screenshots/INNER%20JOIN.png)
- 2. LEFT JOIN: Identifies customers with no purchases
- 3. RIGHT JOIN: Detects medicines with no sales ![Inner Joins Results](https://github.com/username/repo-name/blob/main/screenshots/INNER_JOIN.png?raw=true)
-
- 4. FULL OUTER JOIN: Compares customers and medicines including unmatched records
+ 1. INNER JOIN: Retrieves valid transactions (joins.sql) ![Inner_Joins_Query_Results](screenshots/INNER%20JOIN.png)
+ 2. LEFT JOIN: Identifies customers with no purchases    ![Left_Joins_Query_Results](screenshots/LEFT%20JOIN.png)
+ 3. RIGHT JOIN: Detects medicines with no sales ![Right_Joins_Query_Results](screenshots/INNER%20JOIN.png)
+ 4. FULL OUTER JOIN: Compares customers and medicines including unmatched records ![Full_Joins_Results](screenshots/FULL%20JOIN.png)
 
 ## Step 5: Part B — Window Functions Implementation
-## Window Function Queries
-Window functions are used to analyze sales trends and customer behavior.
 
- 1. RANK(): Identify top-selling medicines
- 2.SUM() OVER(): Calculate running sales totals
- 3. LAG(): Compare monthly sales growth
- 4. NTILE(4): Segment customers into quartiles
+  ### Window Function Queries
+   [Window_Function_Queries](Window_Fuctions/)
+   Window functions are used to analyze sales trends and customer behavior.
+
+ 1. RANK(): Identify top-selling medicines ![Rank_Query_Results](screenshots/RANK.png)
+ 2.SUM() OVER(): Calculate running sales totals ![Rank_Query_Results](screenshots/SUM%20with%20ROWS.png)
+ 3. LAG(): Compare monthly sales growth ![Rank_Query_Results](screenshots/LAG.png)
+ 4. NTILE(4): Segment customers into quartiles ![Rank_Query_Results](screenshots/NTILE.png)
 
 
 ## Key Insights
