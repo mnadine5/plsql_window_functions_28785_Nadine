@@ -34,7 +34,8 @@ There are five key expectations from the analysis, all related to the use cases 
    ### Joins Queries
    
    [Joins_Queries](Joins.sql/)
-    The project includes INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN queries
+   
+   The project includes INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN queries
    to analyze customer purchases and product sales.
   
  1. INNER JOIN: Retrieves valid transactions (joins.sql) ![Inner_Joins_Query_Results](screenshots/INNER%20JOIN.png)
@@ -46,6 +47,7 @@ There are five key expectations from the analysis, all related to the use cases 
 
   ### Window Function Queries
    [Window_Function_Queries](Window_Fuctions/)
+  
    Window functions are used to analyze sales trends and customer behavior.
 
  1. RANK(): Identify top-selling medicines ![Rank_Query_Results](screenshots/RANK.png)
