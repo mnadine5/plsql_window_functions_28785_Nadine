@@ -46,7 +46,7 @@ There are five key expectations from the analysis, all related to the use cases 
 ## Step 5: Part B — Window Functions Implementation
 
   ### Window Function Queries
-   [Window_Function_Queries](Window_Fuctions.sql/)
+   [Window_Function_Queries](Window_Functions.sql/)
   
    Window functions are used to analyze sales trends and customer behavior.
 
