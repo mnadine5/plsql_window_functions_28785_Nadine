@@ -1,3 +1,7 @@
+## Names: MURORA Nadine
+## ID:28785
+## Group: A
+
 # sql-window-functions-assignment
 
 ## Step 1: Problem Definition
