@@ -70,6 +70,7 @@ There are five key expectations from the analysis, all related to the use cases 
 
 ## References
    INSY 8222 Lecture Notes
+   INSY 8311 Lecture Notes 
    
 ## Integrity Statement
 All sources were properly cited. Implementations and analysis represent original work.
